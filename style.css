@@ -1,0 +1,197 @@
+
+@import url('https://fontsgoogleapis.com/css2?family=Mostserrat;ital,wght@0,300;1,600&display=swap');
+
+body{
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	
+}
+h1{
+	text-alight:center;
+	font_size:4em;
+	font-family: "Monaco", Monospace;
+}
+.home-photo{
+	float:right;
+	max-width: 60%;
+	height:200px;
+	margin:50px 0 10px 20px;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+h3{
+	text-alight:left;
+	color: black;
+}
+header img{
+	float:left;
+	padding:10px;
+	width: 150px;
+	height: 150px;
+}
+
+<style>
+      canvas {
+      border: 1px solid #d3d3d3;
+      background-color: #f1f1f1;
+      background-image:url(images/map.jpg); ;
+      }
+
+main img{
+	float:right;
+	padding:10px;
+	height: 400px;
+	width:400px;
+}
+
+p{ text-align: center;
+}
+   </style>
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: teal;
+}
+a:hover{
+	color: teal;
+}
+a:active{
+	color: teal;
+}
+h1{
+	color: Black;
+	text-align: center;
+
+}
+
+h2{
+	text-align: left;
+	
+}
+nav{
+	background-color: 00FFB7;
+	color: white;
+	border-top:2px 00FFB7;
+	border-bottom: 2px 00FFB7; solid;
+text-align: center;
+text-align: center;
+	padding: 10px ;
+	word-spacing: 5em;
+
+
+}
+.contact-form{
+	padding-top: 20px;
+	text-align: center;
+
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	min-height: 100%;  
+  background: #eee;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+
+	
+}
+
+nav a{
+
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+nav ul{
+	list-style-type:none;
+	text-align: right;
+	padding-top:30px;
+	padding-right:20px;
+}
+nav li{
+	display:inline;
+	border-color: grey;
+}
+h4{
+	font-family: serif;
+}
+
+nav a:link{
+	color: #purple;
+
+}
+nav a:visited {
+	color: #purple;
+
+}
+nav a:hover {
+	color: #white;
+
+}
+nav a:active {
+	color:white;
+}
+footer{
+ 	background-color:lightblue;
+	color: white;
+	padding-bottom: 10px;
+
+}
+
+/* CSS FOR SMARTPHONES */
+@media only screen and (min-width: 600px){
+h1{
+	font-size: 1.5em;
+	
+
+}
+/* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+
+/* CSS FOR TABLETS */
+@media only screen and (min-width: 1024px){
+	h1{
+		font-size:2em;
+	}
+
+}
+
